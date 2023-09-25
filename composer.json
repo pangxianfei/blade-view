@@ -1,0 +1,28 @@
+{
+    "name": "tmaic/blade-view",
+    "description": "thinkphp template driver",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "pangxianfei",
+            "email": "421339244@qq.com"
+        }
+    ],
+    "require": {
+    	"php": ">=8.1.0",
+        "ext-fileinfo": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "psr/container": "^2.0.1",
+        "psr/simple-cache": "^3.0",
+        "symfony/finder": "^6.0",
+        "illuminate/view": "~9.52.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\view\\driver\\": "src\\driver",
+            "Tmaic\\Think\\Blade\\": "src\\src-next",
+            "Illuminate\\Filesystem\\": "src\\lib"
+        }
+    }  
+}
