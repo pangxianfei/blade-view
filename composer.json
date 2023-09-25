@@ -18,9 +18,7 @@
         "symfony/finder": "^6.0",
         "topthink/framework": "^8.0",
         "topthink/think-template": "^3.0",
-        "topthink/think-helper": "^3.1.6"
-    },
-    "replace": {
+        "topthink/think-helper": "^3.1.6",
         "illuminate/contracts": "^10.24",
         "illuminate/container": "^10.24",
         "illuminate/collections": "^10.24",
